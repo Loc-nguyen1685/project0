@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu cá nhân</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            gap: 40px;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        /* CỘT BÊN TRÁI */
+        .left {
+            width: 35%;
+            text-align: center;
+        }
+
+        .left img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .job {
+            color: gray;
+            margin-bottom: 15px;
+        }
+
+        /* CỘT BÊN PHẢI */
+        .right {
+            width: 65%;
+        }
+
+        .contact-box, .certificate-box {
+            margin-top: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .contact-box h3,
+        .certificate-box h3 {
+            margin-bottom: 15px;
+        }
+
+        .contact-item {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .contact-item a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .certificate-box img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- CỘT TRÁI -->
+    <div class="left">
+        <img src="C:\project\asset\nguyễn lộc.jpg" alt="Ảnh cá nhân">
+
+        <div class="name">Nguyễn Tấn Lộc</div>
+        <div class="job">Sinh viên ngành Công nghệ Thông tin</div>
+    </div>
+
+    <!-- CỘT PHẢI -->
+    <div class="right">
+
+        <p>
+            Xin chào, tôi tên Nguyễn Tấn Lộc, là sinh viên Khoa Kỹ thuật và Công nghệ,
+            Trường Đại học Trà Vinh. Hiện tại, tôi đang theo học ngành Công nghệ Thông tin
+            với chương trình đào tạo kỹ sư.
+        </p>
+
+        <!-- THÔNG TIN LIÊN LẠC -->
+        <div class="contact-box">
+            <h3>Thông tin liên lạc</h3>
+
+            <div class="contact-item">
+                📞 Điện thoại: 0971 073 009
+            </div>
+
+            <div class="contact-item">
+                ✉️ Email: tanloc1680@gmail.com
+            </div>
+
+            <div class="contact-item">
+                🌐 Facebook:
+                <a href="https://www.facebook.com/evatesttai01/?locale=vi_VN"
+                   target="_blank">
+                   Trang Facebook cá nhân
+                </a>
+            </div>
+        </div>
+
+        <!-- CHỨNG NHẬN MÙA HÈ XANH -->
+        <div class="certificate-box">
+            <h3>Chứng nhận hoạt động</h3>
+
+            <p>
+                Tham gia chiến dịch tình nguyện <b>Mùa Hè Xanh</b>,
+                hoàn thành tốt các nhiệm vụ được giao, góp phần xây dựng
+                cộng đồng và hỗ trợ xã hội.
+            </p>
+
+            <!-- HÌNH ẢNH BẰNG -->
+            <img src="C:\project\asset\mhx.png"
+                 alt="Chứng nhận Mùa Hè Xanh">
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
